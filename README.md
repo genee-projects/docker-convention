@@ -8,7 +8,7 @@
 
 2. 所有线上发布的版本不可发布 latest 版本, 应为具体的版本号. 例如: `genee/redis-server:latest` 为错误版本号, 正确版本应为 `genee/redis-server:1.0`
 
-3. 所有 docker image 都基于 `debian 8.0` 进行构建
+3. 所有 docker image 都基于 `debian 8` 进行构建
 
 4. docker image 进行 volume 挂载时, 应考虑默认挂载目录为 `~` 目录对应服务的目录. 
 
