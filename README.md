@@ -13,3 +13,5 @@
 4. docker image 进行 volume 挂载时, 应考虑默认挂载目录为 `~` 目录对应服务的目录. 
 
 	例如: `genee/redis-server:1.0` 挂载 volume 为 `/home/genee/redis-server/` 到对应目录
+	
+5. Lims2-autodeploy 中也应该标注依赖的 docker 服务版本, 针对未标注版本的**不予**升级/部署!
